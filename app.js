@@ -3,7 +3,7 @@ const path = require('path');
 const jwt = require('jsonwebtoken');
 const cookieparser = require('cookie-parser');
 const mongoose = require('mongoose');
-const User = require('./model/User');
+const User = require('../model/User');
 const { requireAuth, checkUser } = require('./middleware/auth')
 
 
