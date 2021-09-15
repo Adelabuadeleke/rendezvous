@@ -1,10 +1,10 @@
 const express = require('express');
 const path = require('path');
-// const jwt = require('jsonwebtoken');
-// const cookieparser = require('cookie-parser');
-// const mongoose = require('mongoose');
-// const User = require('./model/user');
-// const { requireAuth, checkUser } = require('./middleware/auth')
+const jwt = require('jsonwebtoken');
+const cookieparser = require('cookie-parser');
+const mongoose = require('mongoose');
+const User = require('/model/user');
+const { requireAuth, checkUser } = require('./middleware/auth')
 
 
 const app = express();
